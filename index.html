@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personel portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/72459508f5.js" crossorigin="anonymous"></script>
+    <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+      </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/lakshlogo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Website Developer</p>
+                <h1>Hi, I'm <span>Lakshita</span> <br> from Jaipur</h1>
+            </div>
+        </div>
+    </div>
+    <hr size="4" width="75%" color="orange">
+
+    <!-- <------------------- about me --------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/l6.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I’m Lakshita. I'm a multi-talented human with over
+                        2+ years of experiences in wide range of programming languages
+                        like c, c++,dsa, java, python and I also have ample knowledge
+                        about web development basically the html and css .</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="radha">
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>interpersonal
+                                 skills </span><br>communiation,
+                                 confidence,optimistic, 
+                                humanity </li>
+                            <li><span>languages-</span><br> c, c++, dsa, java, html, css </li>
+                            <li><span> worked on -</span> <br> linux, database, networks</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> 2023 - current </span><br> poornima hackathon- government scheme portal website <br> faculty leave management website
+                              </li>
+                            <li><span>2022</span><br>internship at 360 virtual India company , at MNIT,MIIC ,<br>online food delivery website </li>
+                            <li><span>2021-2022</span><br>jee-mains and jee-advanced exams </li>
+                           
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> 2021 <br><br><p>SBIOA public school</p> </span> <br> 12 th - 91.8% </li>
+                            <li><span>2020</span><br> 11th - 85%</li>
+                            <li><span> 2019</span> <br> 10th - 91.4%</li>
+                        </ul>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr size="4" width="75%" color="orange">
+    <!---------------------- services ------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>I can help you design and manage relational databases,
+                        including creating schemas, optimizing queries, and
+                        managing data backups. I am proficient in SQL and
+                        have experience working with popular database management
+                        systems such as MySQL, PLSQL .</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming</h2>
+                    <p>I am proficient in programming languages such as C,
+                        C++, Java . Whether you need help with
+                        algorithm design, data structures, or software development,
+                        I can provide you with the technical expertise you need to succeed.
+
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-dev"></i>
+                    <h2>Website Developer</h2>
+                    <p>I can help you design and develop a website that is visually
+                        appealing, user-friendly, and optimized for search engines.
+                        Whether you need a simple landing page or a complex e-commerce
+                        site, I can design a website that meets your needs using HTML and CSS.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr size="4" width="75%" color="orange">
+    <!------------------------------- portfolio  ---------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/food.jpg">
+                    <div class="layer">
+                        <h3>online food delivery website</h3>
+                        <p>Delicious is a leading online food
+                            delivery website that brings the joy of food
+                            right to your doorstep.The website provides
+                            a user-friendly interface where customers
+                            can browse menus, select dishes, customize
+                            their orders, and place food delivery requests.
+
+                            languages used : HTML and CSS
+                        </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/government.png">
+                    <div class="layer">
+                        <h3>E-scheme government website</h3>
+                        <p>The website serves as a central repository
+                            of information about different government
+                            schemes across various sectors, such as
+                            education, healthcare, agriculture, employment,
+                            social welfare, and more.
+
+                            technology used : HTML, CSS, CANVA, PHP
+                        </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/faculty.jpg">
+                    <div class="layer">
+                        <h3>online faculty leave management system</h3>
+                        <p> This website
+                            improves the leave management process,
+                            transparency, reduces paperwork,
+                            and ensures efficient coordination.It simplifies
+                            leave request submission, approvals, tracking, and reporting.
+                            languages used : HTML, CSS, javascript and php
+                        </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    </div>
+    <hr size="4" width="75%" color="orange">
+
+
+    <!-----------------------------------  contact  -------------------------------------------->
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>Lakshitagarg577@gmail.com</p>
+               
+                <div class="social-icons">
+                    <a href="https://github.com/Lakshita0403"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/lakshita_garg_7420/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/radhe_12krishna"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/lakshita-garg-002bb4244/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name " required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div>
+
+            <div class="copyright">
+                <p>Copyright Lakshita. Made with <i class="fa-solid fa-heart"></i> by radha
+                    krishna tutorials</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!------------------------------------   contact   ------------------------------------ -->
+
+    <!-- <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tablcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> -->
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzOBIsWTzrhfjBh3x_3ncOf6tGwFBX2Q3DyqysdVsINaJqXeRrU9GhtCTbJFRvldPfn3w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000);
+                })
+            form.reset()
+
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
